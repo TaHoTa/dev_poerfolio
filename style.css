@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -7,4 +8,28 @@ h1{
 }
 .highlight{
     color: orange;
+}
+section{
+    display: flex;
+}
+.div_a {
+    width: 50%;
+    padding-left: 5%;
+}
+.div_a img{
+    width: 80%;
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(243, 209, 146), rgb(214, 110, 13));
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.link_button:hover{
+    background-image: linear-gradient(rgb(219, 173, 87), orange);
+}
+.f_class{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
