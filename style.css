@@ -15,7 +15,7 @@ p:hover {
 .highlight{
     color: orange;
 }
-section{
+.flex_con{
     display: flex;
     margin-bottom: 100px;
 }
