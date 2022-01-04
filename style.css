@@ -6,11 +6,18 @@ h1{
     font-size: 50px;
     color: darkblue;
 }
+p{
+    color: gray;
+}
+p:hover {
+    color: black;
+}
 .highlight{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .div_a {
     width: 50%;
@@ -18,6 +25,11 @@ section{
 }
 .div_a img{
     width: 80%;
+    opacity: 70%;
+}
+
+.div_a img:hover {
+    opacity: 100%;
 }
 .link_button{
     text-decoration: none;
@@ -29,7 +41,15 @@ section{
 .link_button:hover{
     background-image: linear-gradient(rgb(219, 173, 87), orange);
 }
+.r_para{
+    padding-right: 100px;
+}
 .f_class{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.s_class{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
