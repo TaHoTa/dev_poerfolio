@@ -43,6 +43,7 @@ p:hover {
 }
 .r_para{
     padding-right: 100px;
+    text-align: justify;
 }
 .f_class{
     background-image: url(images/top-banner.png);
@@ -52,4 +53,42 @@ p:hover {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experiences{
+    box-shadow: 8px 8px 20px gray;
+    margin: 0px 50px;
+    border-radius: 10px;
+}
+
+.Experiences h1{
+    font-size: 30px;
+}
+.t_sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#aaa{
+    border-left: 8px solid;
+    border-image: linear-gradient(gray, orange);
+    border-image-slice: 1;
+}
+#bbb{
+    border-left: 8px solid;
+    border-image: linear-gradient(gray, cyan)  ;
+    border-image-slice: 1;
+}
+#aaa:hover{
+    border-left: 8px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+#bbb:hover{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan)  ;
+    border-image-slice: 1;
+}
+footer p{
+text-align: center;
+color: gray;
 }
